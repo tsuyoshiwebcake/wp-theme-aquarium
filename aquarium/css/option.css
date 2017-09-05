@@ -1,0 +1,380 @@
+﻿@charset "utf-8";
+/*------------------------
+		option.css
+------------------------*/
+
+
+
+/*=========display=========*/
+.DisPlayNone {
+	display:none;
+}
+.DisPlayBlock {
+	display:block;
+}
+.DisPlayInline {
+	display:inline;
+}
+.MainTitle {
+	line-height: 2.8em;
+	background: url(../images/common/common_h3_bg_01.jpg) no-repeat left top;
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 2.8em;
+	color: #000;
+}
+.MainTitle02 {
+	line-height: 2.4em;
+	background: url(../images/common/common_h_bg_01.jpg) no-repeat left top;
+	height: 2.4em;
+	font-size: 16px;
+	color: #000;
+	padding-left: 10px;
+}
+.MainTitle03 {
+	line-height: 2.5em;
+	background: url(../images/voice/voice_h_03.jpg) no-repeat left top;
+	height: 2.5em;
+	padding-left: 15px;
+	margin-bottom: 5px;
+}
+
+
+
+/*=========float=========*/
+.FRight {
+	float: right;
+}
+.FLeft {
+	float: left;
+}
+.AlignRightM10 {
+	text-align: right;
+	margin-top: 10px;
+	clear: both;
+}
+
+/*=========clear=========*/
+.ClearBoth {
+	clear:both;
+}
+.ClearRight {
+	clear: right;
+}
+.ClearLeft {
+	clear: left;
+}
+.ClearBox {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+/*=========visibility=========*/
+.VisVis {
+	visibility: visible;
+}
+.VisHid {
+	visibility: hidden;
+}
+.VisCol {
+	visibility: collapse;
+}
+/*========= font,text =========*/
+.FSize14 {
+	font-size: 14px;
+}
+.FSize11 {
+	font-size: 11px;
+}
+.boldred {
+	color: #d70010;
+	font-size: 16px;
+}
+
+.h70px {
+	height: 74px;
+}
+.h90px {
+	height: 94px;
+}
+/*=========マージン設定=========*/
+.MA0 {
+	margin:0;
+}
+.MRLAuto {
+	margin-left:auto;
+	margin-right:auto;
+}
+.MLR10 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.MLR2010 {
+	margin: 0px 10px 0px 20px;
+}
+.MT0 {
+	margin-top:0;
+}
+.MT5 {
+	margin-top:5px;
+}
+.MT10 {
+	margin-top:10px;
+}
+.MT20 {
+	margin-top:20px;
+}
+.MT30 {
+	margin-top:30px;
+}
+.MT40 {
+	margin-top:40px;
+}
+.MT50 {
+	margin-top:50px;
+}
+.MR0 {
+	margin-right:0;
+}
+.MR5 {
+	margin-right:5px;
+}
+.MR10 {
+	margin-right:10px;
+}
+.MR15 {
+	margin-right: 15px;
+}
+.MR20 {
+	margin-right:20px;
+}
+.MR25 {
+	margin-right:25px;
+}
+.MR30 {
+	margin-right:30px;
+}
+.MR40 {
+	margin-right:40px;
+}
+.MR50 {
+	margin-right:50px;
+}
+.MB0 {
+	margin-bottom:0;
+}
+.MB5 {
+	margin-bottom:5px;
+}
+.MB10 {
+	margin-bottom:10px;
+}
+.MB15 {
+	margin-bottom:15px;
+}
+.MB20 {
+	margin-bottom:20px;
+}
+.MB25 {
+	margin-bottom: 25px;
+}
+
+.MB30 {
+	margin-bottom:30px;
+}
+.MB40 {
+	margin-bottom:40px;
+}
+.MB50 {
+	margin-bottom:50px;
+}
+.ML0 {
+	margin-left:0;
+}
+.ML5 {
+	margin-left:5px;
+}
+.ML10 {
+	margin-left:10px;
+}
+.ML15 {
+	margin-left: 15px;
+}
+.ML20 {
+	margin-left:20px;
+}
+.ML30 {
+	margin-left:30px;
+}
+.ML40 {
+	margin-left:40px;
+}
+.ML50 {
+	margin-left:50px;
+}
+/*=========パディング設定=========*/
+.PA0 {
+	padding:0;
+}
+.PA5 {
+	padding:5px;
+}
+.PA10 {
+	padding:10px;
+}
+.PA20 {
+	padding:20px;
+}
+.PA30 {
+	padding:30px;
+}
+.PT0 {
+	padding-top:0;
+}
+.PT5 {
+	padding-top:5px;
+}
+.PT10 {
+	padding-top:10px;
+}
+.PT20 {
+	padding-top:20px;
+}
+.PT30 {
+	padding-top:30px;
+}
+.PT40 {
+	padding-top:40px;
+}
+.PT50 {
+	padding-top:50px;
+}
+.PR0 {
+	padding-right:0;
+}
+.PR5 {
+	padding-right:5px;
+}
+.PR10 {
+	padding-right:10px;
+}
+.PR15 {
+	padding-right: 15px;
+}
+
+.PR20 {
+	padding-right:20px;
+}
+.PL25 {
+	padding-left: 25px;
+}
+
+.PR30 {
+	padding-right:30px;
+}
+.PR40 {
+	padding-right:40px;
+}
+.PR50 {
+	padding-right:50px;
+}
+.PB0 {
+	padding-bottom:0;
+}
+.PB5 {
+	padding-bottom:5px;
+}
+.PB10 {
+	padding-bottom:10px;
+}
+.PB20 {
+	padding-bottom:20px;
+}
+.PB30 {
+	padding-bottom:30px;
+}
+.PB40 {
+	padding-bottom:40px;
+}
+.PB50 {
+	padding-bottom:50px;
+}
+.PL0 {
+	padding-left:0;
+}
+.PL5 {
+	padding-left:5px;
+}
+.PL10 {
+	padding-left:10px;
+}
+.PL20 {
+	padding-left:20px;
+}
+.PL30 {
+	padding-left:30px;
+}
+.PL40 {
+	padding-left:40px;
+}
+.PL50 {
+	padding-left:50px;
+}
+/*=========Font=========*/
+.FontBold {
+	font-weight: bold;
+}
+.FontColorRed {
+	color: #ee1600;
+}
+.FontColorRedB {
+	color: #ff1919;
+}
+.small {
+	font-size: 10px;
+	line-height: 17px;
+}
+
+/*=========text-align=========*/
+.TACenter {
+	text-align: center;
+}
+.TARight {
+	text-align: right;
+}
+.TALeft {
+	text-align: left;
+}
+/*=========vertical-align=========*/
+.VAMid {
+	vertical-align: middle;
+}
+.VAtTop {
+	vertical-align: text-top;
+}
+.VABase img {
+	vertical-align: baseline;
+}
+.VAMidd img {
+	vertical-align: middle;
+}
+.aligncenter {
+	text-align: center;
+}
+.alignright {
+	text-align: right;
+}
+/*=========ロールオーバー=========*/
+
+
+/* 	jsロールオーバーのとき半透明ロールオーバー解除 */
+a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.bottom_dot_line {
+	background: url(../images/common/line_01.gif) no-repeat left bottom;
+	margin-bottom: 20px;
+	padding-bottom: 21px;
+}

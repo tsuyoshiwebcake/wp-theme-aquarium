@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+@import "initialization.css"; 	/*初期化用*/
+@import "temp.css"; 			/*テンプレート部分のスタイルを記述*/
+@import "module.css"; 			/*各ページで共通して使うスタイルを記述*/
+@import "option.css"; 			/*各オプションCSS*/

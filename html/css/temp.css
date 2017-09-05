@@ -1,0 +1,255 @@
+@charset "utf-8";
+/*------------------------------------*/
+/* common_temp */
+/*------------------------------------*/
+
+/*------------------------------------*/
+/* ページ全体の枠 */
+/*------------------------------------*/
+#ContainerBox {
+	margin: 0px auto;
+	width: 1015px;
+	background: url(../images/head_bg_01.jpg) no-repeat center top;
+}
+#HeaderBox {
+	height: 140px;
+	width: 1000px;
+	margin: 0px auto;
+	background: url(../images/html_bg_01.jpg) no-repeat center top;
+	position: relative;
+}
+#common #HeaderBox {
+	margin-bottom: 20px;
+}
+#common #ContBox {
+	background: #FFF;
+}
+
+#HeaderBox h1 {
+	font-weight: 100;
+	color: #CCC;
+	font-size: 12px;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+}
+#HeaderBox #logo {
+	position: absolute;
+	top: 5px;
+}
+#HeaderBox #mail {
+	position: absolute;
+	right: 0px;
+	top: 40px;
+}
+#HeaderBox #tel {
+	position: absolute;
+	top: 43px;
+	left: 550px;
+}
+
+/*------------------------------------*/
+/* グローバルナビゲーション */
+/*------------------------------------*/
+#GlobalNavi {
+	color: #5a5a5a;
+	width: 1000px;
+	position: absolute;
+	height: 40px;
+	top: 100px;
+}
+#GlobalNavi li {
+	float: left;
+}
+/*------------------------------------*/
+/* 全体 */
+/*------------------------------------*/
+#ContBox {
+	clear: both;
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto 10px;
+}
+#index #ContBox #mainimg {
+	margin-bottom: 20px;
+}
+
+/*------------------------------------*/
+/* 下段の左カラム */
+/*------------------------------------*/
+
+#LeftBox {
+	float: left;
+	background: url(../images/common/top_box_bg_02.jpg) repeat;
+	padding-bottom: 20px;
+}
+#LeftBox #Panlist {
+	margin-bottom: 10px;
+}
+
+#common #ContBox #LeftBox {
+	padding: 10px 0px 0px 10px;
+	width: 700px;
+}
+
+#index #ContBox #LeftBox #info {
+	margin: 0px 20px 20px 10px;
+}
+#index #ContBox #LeftBox #event {
+	margin: 0px 20px 20px 10px;
+}
+#index #ContBox #LeftBox li  {
+	background: url(../images/arrow_01.jpg) no-repeat left 7px;
+	padding-left: 20px;
+	border-bottom: 1px dotted #000;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+#common #ContBox #LeftBox h2 {
+	background: url(../images/h_bg_01.jpg) no-repeat left top;
+	color: #FFF;
+	font-size: 16px;
+	padding: 9px 0px 9px 30px;
+	margin-bottom: 20px;
+}
+#LeftBox .mainbox {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #000;
+	overflow: hidden;
+	clear: both;
+}
+
+#LeftBox .mainbox .picbox {
+	float: left;
+	width: 300px;
+}
+#LeftBox .mainbox .txtbox .dlbox {
+	float: right;
+	width: 380px;
+	background: url(../images/dd_bg_01.jpg) repeat-y left top;
+}
+
+#LeftBox .maintxtbox .txtbox .dlbox {
+	float: right;
+	width: 600px;
+	background: url(../images/dd_bg_01.jpg) repeat-y left top;
+}
+
+#LeftBox .mainbox .txtbox .dlbox dl, #LeftBox .maintxtbox .txtbox .dlbox dl  {
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px dotted #000;
+}
+#LeftBox .mainbox .txtbox .dlbox .none , #LeftBox .maintxtbox .txtbox .dlbox .none{
+	border-bottom-style: none;
+}
+#LeftBox .mainbox .txtbox .dlbox .none dt, #LeftBox .maintxtbox .txtbox .dlbox .none dt {
+	border-bottom-style: none;
+}
+
+
+#LeftBox .mainbox .txtbox .dlbox dl dt , #LeftBox .maintxtbox .txtbox .dlbox dl dt{
+	color: #FFF;
+	padding: 5px 10px;
+	float: left;
+	width: 140px;
+	border-bottom: 1px solid #FFF;
+}
+#LeftBox .mainbox .txtbox .dlbox dl dd, #LeftBox .maintxtbox .txtbox .dlbox dl dd {
+	padding: 5px 10px;
+	float: left;
+	width: 200px;
+}
+#LeftBox .maintxtbox .txtbox {
+	clear: both;
+	overflow: hidden;
+	width: 700px;
+}
+
+#LeftBox .maintxtbox {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#LeftBox .maintxtbox .txtbox .dlbox {
+	float: left;
+	width: 690px;
+}
+#LeftBox .maintxtbox .txtbox .dlbox {
+	width: 700px;
+}
+
+#LeftBox .maintxtbox .txtbox .dlbox dl dd {
+	width: 520px;
+}
+#LeftBox dl .title    {
+	font-weight: bold;
+}
+#LeftBox .entry .info_date {
+	text-align: right;
+	padding-top: ５;
+	border-top: 1px dotted #0729B6;
+	padding-bottom: ５;
+	border-bottom: 1px dotted #0729B6;
+	color: #0729B6;
+}
+#LeftBox .entry p {
+	margin-bottom: 20px;
+}
+#LeftBox h2 a {
+	color: #FFF;
+}
+#LeftBox .entry .event_date {
+	background: #9CF;
+}
+
+
+
+
+
+/*------------------------------------*/
+/* top_temp */
+/*------------------------------------*/
+
+#RightBox {
+	width: 250px;
+	float: right;
+}
+#common #ContBox #RightBox {
+	padding: 43px 10px 0px 0px;
+}
+#index #ContBox #LeftBox .details {
+	text-align: right;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+/*------------------------------------*/
+/* ページのトップへ */
+/*------------------------------------*/
+#Pagetop {
+	clear: both;
+	padding-top: 50px;
+}
+/*------------------------------------*/
+/* フッター */
+/*------------------------------------*/
+#FootBox {
+	clear: both;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	background: #172C54;
+	height: 40px;
+}
+#FootBox a {
+	color: #FFF;
+}
+#FootBox .footbox {
+	background: #172C54;
+	width: 1000px;
+	color: #FFF;
+	margin: 0px auto;
+	text-align: left;
+	padding-top: 8px;
+}
